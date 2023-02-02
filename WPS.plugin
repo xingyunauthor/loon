@@ -1,11 +1,11 @@
-#!name=WPS会员2
-#!desc=WPS解锁本地会员2
+#!name=WPS会员3
+#!desc=WPS解锁本地会员3
 #!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/wps.png
 #!homepage=https://github.com/deezertidal
-#!author=I-am-R-E2
+#!author=I-am-R-E3
 
 [Script]
-http-response ^https?:\/\/sg\-account\.wps\.com\/api\/users\/268359542 script-path=https://raw.githubusercontent.com/xingyunauthor/loon/main/wps.js, requires-body=1
+http-response ^https?:\/\/sg\-account\.wps\.com\/api\/users\/268359542 requires-body=1,script-path=https://raw.githubusercontent.com/xingyunauthor/loon/main/wps.js
 
 [MITM]
 hostname = sg-account.wps.com
