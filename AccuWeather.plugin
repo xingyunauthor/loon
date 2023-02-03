@@ -8,4 +8,4 @@
 http-response ^https?:\/\/(.*)?\.accuweather\.com\/subscriptions\/v1\/apple\/validate(.*)? script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/accuWeather.js, requires-body=1, timeout=10, tag=AccuWeather
 
 [MITM]
-hostname = app-subscription-proxy.accuweather.com
+hostname = app-subscription-proxy.accuweather.com,*.accuweather.com
